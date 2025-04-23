@@ -3,3 +3,5 @@
 4/19/2025 URL https://gramos-12.github.io/1Recipe-website/
 
 4/20/2025 Worked on Home page (index.html) to create spacing between hyperlinks using &nbsp&nbsp. Enterred &nbsp two times to create the needed spacing
+
+4/22/2025 Worked on Home Page trying to get 2 images and one paragraph arranged on page. Made some progress but still needs work.
