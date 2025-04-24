@@ -15,7 +15,9 @@ div.container {
   width: 90%;
   margin: auto;
 }
-
+.top h1 {
+  padding-top: 30px;
+}
 div.main {
   background-color: burlywood;
   border: 5px solid rgb(12, 230, 19);
@@ -25,7 +27,7 @@ div.main {
 
 }
 header {
-  background-color: cornflowerblue;
+  background-color:none;
   height: 75px;
 }
 .text1{
