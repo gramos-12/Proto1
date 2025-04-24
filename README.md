@@ -9,3 +9,5 @@
 4/22/2025 @ 8:44pm
 
 4/23/2025 Made changes to all html files & added images
+
+4/23/2025 deleted 3 images
