@@ -7,3 +7,5 @@
 4/22/2025 Worked on Home Page trying to get 2 images and one paragraph arranged on page. Made some progress but still needs work.
 
 4/22/2025 @ 8:44pm
+
+4/23/2025 Made changes to all html files & added images
