@@ -22,4 +22,4 @@
 
 4/24/2025 changed the class="main" to bisque
 
-4/24/2025 changed the nav links sequence in all the wed pages
+4/24/2025 changed the nav links sequence in all the web pages
