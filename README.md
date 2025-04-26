@@ -23,3 +23,7 @@
 4/24/2025 changed the class="main" to bisque
 
 4/24/2025 changed the nav links sequence in all the web pages
+
+4/25/2025 learned the difference between margin vs padding and played with both to understand their affects.
+
+4/26/25 Made changes to all the web pages so they all look the same when navigating from page to page
