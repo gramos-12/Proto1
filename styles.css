@@ -37,20 +37,21 @@ header {
   font-size: large;
   font-weight: bold;
   font-style: italic;  
-  padding: 30px 30px 30px 30px;
+  padding: 30px 20px 30px 30px;
+  width: 90%;
 }
 
 .left img {
-  padding: 10px;
-  width: 40%;
+  padding: 20px 10px;
+  width: 50%;
   height: 100%;
   float: left; margin: 0px 0px 0px 0px;
 }
 /*many hours and many attempts to keep each page to display the same size. I finally solved my issue. I Changed the 'height property' to pixels. I kept using 'auto' and '%' */
 .right img{
-  width: 80%;
+  width: 90%;
   height: 500px;
-  padding: 100px 50px 0px 50px;
+  padding: 80px 10px 30px 70px;
   
 }
 ul{
