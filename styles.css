@@ -30,8 +30,8 @@ header {
 }
 .navloc {
   width: 1200px;
-  padding: 50px; 0px 0px 400px;
-  background-color: chartreuse;
+  padding: 50px; 0px 0px 0px;
+  background-color: grey;
   height: 110px;
 }
 div.main {
@@ -95,7 +95,7 @@ aside{
 container-height {
   height: 100%
 }
-.footer {
+footer {
   height: 40px;
   font-size: large;
   padding: 5px 0px 5px 20px;

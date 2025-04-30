@@ -27,3 +27,5 @@
 4/25/2025 learned the difference between margin vs padding and played with both to understand their affects.
 
 4/26/25 Made changes to all the web pages so they all look the same when navigating from page to page
+
+4/30/25 updated index.html file, need some more work to finalizwe. Then manually copy only code that pertains to the unique page. Each page has different images 
