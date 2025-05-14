@@ -4,101 +4,201 @@
   margin: 0;
   padding: 0;
 }
-
-div.container {
-  border: 5px solid red;
-  width: 90%;
+.top {
   margin: auto;
-}
-.top img {
-  padding: 0px;
-  width: 8%;
-  height: auto;
-  float: left; 
-  margin: 0px 0px 0px 0px;
-}
-/* title of web page positioning */
-header {
-  background-color:aquamarine;
+  display: flex;
+  flex-direction: row;
   height: 110px;
-
+  width: 90%;
+  
 }
-.top h1 {
-  float:left;
-  width: 150px;
-  margin: 30px 0px 0px 10px;
-  background-color:rgb(108, 148, 228);
+.page {
+  width: 120px;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 10px;
+}
+.h1pos{
+  margin: 2px;
+}
+.h1_nav{
+  text-align: center;
+}
+.h1, .navloc {
+    display: flex;
+    flex: wrap;
 }
 .navloc {
-  width: 1200px;
-  padding: 50px; 0px 0px 0px;
-  background-color: grey;
-  height: 110px;
+    margin-left: 100px;
+    display: flex;
 }
-div.main {
-  background-color:bisque;
-  border: 5px solid rgb(12, 230, 19);
-  width: 100%;
-  padding: 3px;
+.movnav {
+    text-align: center;
 }
-
-.heading {
-  margin: 30px 0px 0px 200px;
-  
-}
-.text1{
-  background-color: lemonchiffon;
-  color: black;
-  text-transform: capitalize;
-  font-size: large;
-  font-weight: bold;
-  font-style: italic;  
-  padding: 10px 20px 10px 20px;
-  margin: 20px 40px 0px 0px;
-  width: 90%;
-}
-
-.left img {
-  padding: 30px 30px;
-  width: 50%;
-  height: 100%;
-  float: left; margin: 0px 50px 0px 0px;
-}
-/*many hours and many attempts to keep each page to display the same size. I finally solved my issue. I Changed the 'height property' to pixels. I kept using 'auto' and '%' */
-.right img{
-  width: 90%;
-  height: 460px;
-  padding: 140px 10px 20px 50px;
-  margin: 0px 0px 10px 0px;
-  
-}
-ul{
-  text-align: center;
-  padding: 45px 0px 0px 0;
-
-}
-li{
-  display: inline-block;
-  width: 150px;
-  border: 2px solid black;
-  line-height: em;
-  font-family: Arial, Helvetica, sans-serif;
+.movnav li{
+    align-content: bottom;
+    display: inline-block;
+    width: 150px;
+    line-height: em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid black;
 }
 a{
-  color: solid black;
-  text-decoration: none;
-  border: 1px solid red;
-  display:block;
+    text-decoration: none;
+    display:block; 
 }
-aside{
+.container {
   display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  width: 90%;
+  height:80%;
+  }
+  .left {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 30px 20px 30px 20px;
 }
-container-height {
-  height: 100%
+  .left img {
+  width: 80%;
+  height: auto;
 }
-footer {
-  height: 40px;
-  font-size: large;
+.right {
+width: 45%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin: 30px 20px 30px 20px;
+}
+#home-page {
+  margin: 0px 0px 0px 160px;
+}
+#aboutus-page {
+    margin: 0px 0px 0px 200px;
+}
+#under_construction {
+  color: red;
+}
+#home-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  font-size:20px;
+  font-style: italic;  
   padding: 5px 0px 5px 20px;
-  border: 5px solid black;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
 }
+#recipes-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+#Hol_Seasons-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+#HealthyFoods-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+#aboutus-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 40px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+.right h1 {
+  margin: 0px 0px 0px 140px;
+}
+#home-rt-img {
+display:flex;
+width: 100%;
+}
+  #home-rt-img  img{
+    width: 100%;
+    height: 300px;
+    margin-top: 45px;
+  }
+  #Recipes-rt-img {
+    display:flex;
+    width: 100%;
+  }
+  #Recipes-rt-img img {
+    width: 100%;
+    height: 300px;
+    margin-top: 115px;
+  }
+  #hol_seasons-rt-img {
+    display:flex;
+    width: 100%;
+  }
+#hol_seasons-rt-img img {
+  width: 100%;
+    height: 300px;
+    margin-top: 120px;
+}
+#healthy_foods-rt-img {
+  display:flex;
+    width: 100%;
+}
+#healthy_foods-rt-img img {
+  width: 100%;
+    height: 300px;
+    margin-top: 120px;
+}
+#aboutus-rt-img {
+  display:flex;
+    width: 100%;
+}
+#aboutus-rt-img img {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+
+  footer {
+    color:black;
+    margin: auto;
+    height: 40px;
+    font-size: large;
+    padding: 5px 0px 5px 20px;
+    width: 80%;
+  }
+  .contact {
+    display: flex;
+    gap: 40px;
+    
+  }
+  .contact li {
+    display: inline-block;
+    width: auto;
+    line-height: em;
+    font-family: Arial, Helvetica, sans-serif;
+    }
