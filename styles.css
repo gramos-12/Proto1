@@ -7,26 +7,15 @@
 .top {
   margin: auto;
   display: flex;
-  flex-direction: row;
   height: 110px;
   width: 90%;
-  
-}
-.page {
-  width: 120px;
-  flex-direction: column;
-  align-content: center;
-  margin-left: 10px;
 }
 .h1pos{
   margin: 2px;
+  padding-left: 100px;
 }
 .h1_nav{
   text-align: center;
-}
-.h1, .navloc {
-    display: flex;
-    flex: wrap;
 }
 .navloc {
     margin-left: 100px;
@@ -47,6 +36,10 @@ a{
     text-decoration: none;
     display:block; 
 }
+.active {
+    background-color: darkgreen;
+    color: white;
+  }
 .container {
   display: flex;
   margin: auto;
@@ -55,6 +48,7 @@ a{
   gap: 40px;
   width: 90%;
   height:80%;
+  background-color: antiquewhite;
   }
   .left {
   width: 45%;
@@ -65,35 +59,41 @@ a{
   margin: 30px 20px 30px 20px;
 }
   .left img {
-  width: 80%;
-  height: auto;
+    width: 80%;
+    height: 300px;
+  object-fit: cover;
 }
 .right {
 width: 45%;
 display: flex;
+gap: 40px;
 flex-direction: column;
 align-items: flex-start;
 margin: 30px 20px 30px 20px;
 }
-#home-page {
-  margin: 0px 0px 0px 160px;
+#home-rt-img {
+   width: 80%;
+    height: 300px;
+  object-fit: cover;
 }
-#aboutus-page {
-    margin: 0px 0px 0px 200px;
-}
-#under_construction {
-  color: red;
+#home-h2 {
+  margin: 0px 0px 0px 200px;
 }
 #home-p {
-  border: 2px solid black;
   border-radius: 10px;
   color: black;
   font-size:20px;
   font-style: italic;  
   padding: 5px 0px 5px 20px;
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 100%;
 }
+/* ........ The following relate to pages Under Construction ....... */
+ #Recipes-rt-img {  
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  }
 #recipes-p {
   border: 2px solid black;
   border-radius: 10px;
@@ -101,9 +101,14 @@ margin: 30px 20px 30px 20px;
   font-size:20px;
   font-style: italic;  
   padding: 10px 0px 35px 20px;
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 100%;
 }
+ #hol_seasons-rt-img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  }
 #Hol_Seasons-p {
   border: 2px solid black;
   border-radius: 10px;
@@ -111,8 +116,13 @@ margin: 30px 20px 30px 20px;
   font-size:20px;
   font-style: italic;  
   padding: 10px 0px 35px 20px;
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 100%;
+}
+#healthy_foods-rt-img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
 }
 #HealthyFoods-p {
   border: 2px solid black;
@@ -121,84 +131,48 @@ margin: 30px 20px 30px 20px;
   font-size:20px;
   font-style: italic;  
   padding: 10px 0px 35px 20px;
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 100%;
+}
+  /* ......... This ends the Under Construction CSS code ....... */
+ #aboutus-rt-img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+}
+#aboutus-h2 {
+  margin: 0px 0px 0px 200px;
 }
 #aboutus-p {
   border: 2px solid black;
   border-radius: 10px;
-  color: black;
+  color: white;
   font-size:20px;
   font-style: italic;  
   padding: 10px 0px 40px 20px;
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 100%;
+  background-color: darkgreen;
 }
-.right h1 {
-  margin: 0px 0px 0px 140px;
+#under_construction {
+  color: red;
 }
-#home-rt-img {
-display:flex;
-width: 100%;
-}
-  #home-rt-img  img{
-    width: 100%;
-    height: 300px;
-    margin-top: 45px;
-  }
-  #Recipes-rt-img {
-    display:flex;
-    width: 100%;
-  }
-  #Recipes-rt-img img {
-    width: 100%;
-    height: 300px;
-    margin-top: 115px;
-  }
-  #hol_seasons-rt-img {
-    display:flex;
-    width: 100%;
-  }
-#hol_seasons-rt-img img {
-  width: 100%;
-    height: 300px;
-    margin-top: 120px;
-}
-#healthy_foods-rt-img {
-  display:flex;
-    width: 100%;
-}
-#healthy_foods-rt-img img {
-  width: 100%;
-    height: 300px;
-    margin-top: 120px;
-}
-#aboutus-rt-img {
-  display:flex;
-    width: 100%;
-}
-#aboutus-rt-img img {
-  width: 100%;
-  height: 300px;
-  margin-top: 50px;
-}
-
   footer {
     color:black;
     margin: auto;
     height: 40px;
     font-size: large;
     padding: 5px 0px 5px 20px;
-    width: 80%;
+    width: 100%;
   }
   .contact {
     display: flex;
     gap: 40px;
-    
+    justify-content: center;
   }
   .contact li {
     display: inline-block;
-    width: auto;
     line-height: em;
     font-family: Arial, Helvetica, sans-serif;
-    }
+  }
+  
