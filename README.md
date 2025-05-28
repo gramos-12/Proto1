@@ -33,3 +33,4 @@
 5/1/25 Home page almost complete need to review & propagate tp other pages. Do not change the images on the other pages, only required HTML code
 
 5/3/25 Home page & About Us page completed. Recipes, Hol & Seasons, and HealthyFoods pages require more modificaions and are under construction.
+Changed file name from 1Recipe-Website to Proto1
